@@ -1,0 +1,14 @@
+#Requirements for the code
+
+import pandas as pd
+import numpy as np
+import re # module for pattern matching and text manipulation
+pd.options.display.max_colwidth = 4000
+pd.options.display.max_rows = 100
+
+from sklearn.feature_extraction.text import CountVectorizer # converts text into numbers by counting how often each word (or word pair) appears in documents.
+from sklearn.feature_selection import chi2 # chi-squared statistical test to measure how strongly each feature (e.g., word or n-gram) is associated with a class label, a ranking procedure to distinguish most discriminative features.
+
+#mount Google drive
+
+#path = path to your Google drive
